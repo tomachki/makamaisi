@@ -48,15 +48,17 @@ body {
   display: block;
 }
 
-.dropdown:hover a {
+.dropdown:hover .items {
   margin: 0;
   border-radius: 0;
 }
 
-/* i {
-  color: red;
-  font-size: 50px;
-} */
+.dropdown:hover #dropBtn {
+  background-color: white;
+  color: #0E467D;
+}
+
+
 
 .nav a:hover {
   color: white;
