@@ -1,3 +1,5 @@
+/* NEED DROP MENU FOR MOBILE */
+
 body {
   margin: 0;
   font-family: "ALK Sanet", sans-serif;
@@ -8,6 +10,12 @@ body {
 .main-header {
   background-color: #0E467D;
   height: 900px;
+}
+
+#logo {
+  font-size: 20px;
+  margin-right: auto;
+  padding-left: 30px;
 }
 
 .dropdown a {
@@ -24,6 +32,7 @@ body {
   background-color: #f4f4f4;
   position: absolute;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+  text-align: center;
 }
 
 .nav {
@@ -33,7 +42,6 @@ body {
   background-color: white;
   color: #0E467D;
   width: 100%;
-  padding-left: 20px;
 }
 
 .nav a {
@@ -53,12 +61,10 @@ body {
   border-radius: 0;
 }
 
-.dropdown:hover #dropBtn {
+.dropdown:hover #dropBtn, #dropBtn2 {
   background-color: white;
   color: #0E467D;
 }
-
-
 
 .nav a:hover {
   color: white;
